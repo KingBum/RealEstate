@@ -1,0 +1,44 @@
+.footer{
+    width: 100%;
+    max-width: 1252px;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.leftFooter{
+    flex: 2;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.itemFooter{
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.titleFooter{
+    font-weight: 700;
+}
+
+.infoFooter{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    color: rgb(112, 112, 112);
+}
+
+.iconFooter{
+    background-color: #4A60A1;
+}
+
+.listIconFooter{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

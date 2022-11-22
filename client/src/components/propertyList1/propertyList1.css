@@ -1,0 +1,23 @@
+.propertyList1{
+    width: 100%;
+    max-width: 1252px;
+    margin: 3rem auto;
+    color: black;
+}
+
+.wrapperPropertyList1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.slide-container{
+    display: flex;
+}
+
+.slide-container{
+    max-width: 1252px;
+}

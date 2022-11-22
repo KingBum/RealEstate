@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    transition: all .2s linear;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.iconMedium{
+    width: 40px;
+    height: 40px;
+}
+
+.iconBig{
+    width: 78px;
+    height: 78px;
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn{
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: .4rem 1rem;
+    border-radius: .4rem;
+    color: white;
+    background-color: #4A60A1;
+    z-index: 9;
+}
+
+.wrapperTitleCom{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    z-index: 9;
+}
+
+.subColor{
+    color: rgb(112, 112, 112);
+}
+
+
+.titleCom{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.subCom{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.cardPropertice{
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.cardPropertice:hover{
+    background-color: antiquewhite;
+    border-radius: 2rem;
+}
+
+.titleCardPropertice{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subCardPropertice{
+    font-weight: 200;
+    color: rgb(112, 112, 112);
+}
+
+.readMoreCardPropertice{
+    font-weight: 500;
+    color: #4A60A1;
+}
+
+
+
+/* CardItem */
+
+.cardItem{
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.imageCardItem{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.boxCardItem{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.titleCardItem{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.InfoCardItem{
+    padding-bottom: 1rem;
+    display: flex;
+    gap: 2rem;
+    font-size: 14px;
+    border-bottom: 1px ridge rgb(163, 163, 163);
+}
+
+.InfoDetailCardItem{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.bottomInfoCardItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatarBox{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatarCardItem{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.actionCardItem{
+    display: flex;
+    gap: 1rem;
+}
+
+.iconActions:hover{
+    cursor: pointer;
+}
+
+.margin-top{
+    margin-top: 1rem;
+}
+
+/* Slider */
+.pendingSlider{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.each-slide{
+    position: relative;
+    border: none;
+    width: 90%;
+}
+
+.each-slide:focus{
+    border: none;
+    outline: none;
+}
+
+.imgSlider{
+    cursor: pointer;
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    border: none;
+}
+
+.each-slide:hover .imgSlider{
+    filter: blur(.25rem);
+}
+
+.viewDetailSlider{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    padding: .5rem 1rem;
+    border: 1px solid white;
+    cursor: pointer; 
+}
+
+.each-slide:hover .viewDetailSlider{
+    border: none;
+    background-color: #4A60A1;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+
+.hotOffer{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    text-align: center;
+    width: 30%;
+}
+

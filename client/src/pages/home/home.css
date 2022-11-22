@@ -1,0 +1,23 @@
+.home{
+    width: 100vw;
+}
+
+.homeHeader{
+    color: white;
+    background-image: url("../../assets/images/Home.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lineHome{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}

@@ -1,0 +1,86 @@
+.header{
+    padding: 1rem 0;
+    width: 100%;
+    max-width: 1720px;
+    overflow-y: hidden;
+}
+
+.navbarHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 11rem;
+    height: 4rem;
+}
+
+.rightNavbarHeader{
+    display: flex;
+    gap: 2rem;
+    color: white;
+    align-items: center;
+}
+
+.addNavbar{
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: .7rem;
+}
+
+.mainHeader{
+    width: 50%;
+    margin: 6rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titleHeader{
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.subTitleHeader{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.optionHeader{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.listChooseHeader{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: black;
+}
+
+.chooseHeader{
+    font-size: 18px;
+}
+
+.inputChooseHeader{
+    color: rgb(78, 78, 78);
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.inputChooseHeader::placeholder{
+    color: rgb(126, 126, 126);
+}
+
+.itemNavbarHeader{
+    cursor: pointer;
+}
